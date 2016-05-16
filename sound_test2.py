@@ -140,6 +140,6 @@ if __name__ == '__main__':
                         
             print str(j)
             print "turnarounds: ", str(turnarounds)
-            print "Ave: ", str(reduce(lambda x, y: x + y, turnarounds) \
+            print "Perceived pitch with noise: ", str(reduce(lambda x, y: x + y, turnarounds) \
                 / len(turnarounds))
             print "# Pres: ", str(num_steps)
