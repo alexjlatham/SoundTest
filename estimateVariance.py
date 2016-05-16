@@ -1,3 +1,5 @@
+# Biased estimate of sample standard dev./variance for some list of values. 
+# Following prompt, input comma or space-delineated list of numbers. 
 import sys
 
 def est_variance(vals):
